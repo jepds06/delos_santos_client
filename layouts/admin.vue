@@ -280,7 +280,7 @@ import { ChevronRightIcon } from '@heroicons/vue/20/solid'
 import { ChevronDownIcon, MagnifyingGlassIcon } from '@heroicons/vue/20/solid'
 
 const navigation = [
-    { name: 'Home', href: '/', icon: HomeIcon, current: true },
+    { name: 'Home', href: '/admin_home', icon: HomeIcon, current: false },
     { name: 'About', href: '/about', icon: InformationCircleIcon, current: false },
     { name: 'Services', href: '/services', icon: HandThumbUpIcon, current: false },
     { name: 'Contact', href: '/contact', icon: PhoneArrowDownLeftIcon, current: false },
